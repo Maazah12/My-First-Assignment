@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <style>
+        .styled-hr{
+            border: 0;
+            height: 10px;
+            background-color: white
+        }
+    </style>
     <h1>Welcome To My HTML Assingment</h1>
-    <p>This page demonstrates the use of tables, forms, images and various HTML elements.</p><hr>
+    <p>This page demonstrates the use of tables, forms, images and various HTML elements.</p>
+    <hr class="styled-hr">
     <h2 id="Contact-Form">Contact Form</h2>
     <form action="Submit" method="post">
         <input type="text" placeholder="Enter Your Name" required><br>
@@ -19,7 +28,8 @@
         <input type="password" placeholder="Enter Your Password"required><br>
         <br>
         <input type="submit"></input>
-    </form><hr>
+    </form>
+    <hr class="styled-hr">
     <h2>Student Marks Table</h2>
     <p>Below is a table showing the students along with their marks abd profile pictures.</p>
 
@@ -31,34 +41,36 @@
             <th><b>Science</b></th>
         </tr>
         <tr>
-            <td><img src="https://www.unicode.org/reports/tr51/images/other/person.png" alt="" height="50" width="50"> </td>
+            <td><img src="hamza.png" alt="" height="50" width="50"> </td>
             <td>Hamza</td>
             <td>64</td>
             <td>80</td>
         </tr>
         <tr>
-            <td><img src="https://www.pngfind.com/pngs/m/333-3330905_adult-icon-google-emojis-before-and-after-hd.png" alt="" height="40" width="40"></td>
+            <td><img src="ali.png" alt="" height="45" width="45"></td>
             <td>Ali</td>
             <td>75</td>
             <td>95</td>
         </tr>
         <tr>
-            <td><img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f469-1f4bc.png" alt="" height="45" width="50"></td>
+            <td><img src="samina.png" alt="" height="45" width="50"></td>
             <td>Samina</td>
             <td>70</td>
             <td>85</td>
         </tr>
 
     </table>
-    <hr>
+    <hr class="styled-hr">
     
     <h2>Anchor Links</h2>
     <p>Use the following Links to navigate:</p>
-    <a href="#contact form">Jump to contact form</a><br>
-    <a href="https://www.google.com" target="_blank">Go to Google</a><hr>
+    <h3><a href="#contact form">Jump to contact form</a></h3>
+    <h3><a href="https://www.google.com" target="_blank">Go to Google</a></h3>
+    <hr class="styled-hr">
     
     <h2>Subscript And Superscript</h2>
-    <p>Chemical formula often use subscript, such as H<sub>2</sub>O for water. In physics, the equation E=mc<sup>2</sup> is a famous examples use by superscript.</p><hr>
+    <p>Chemical formula often use subscript, such as H<sub>2</sub>O for water. In physics, the equation E=mc<sup>2</sup> is a famous examples use by superscript.</p>
+    <hr class="styled-hr">
     <h2>Lists</h2>
     <h3>Ordered Lists - Favorite Fruits</h3>
     <ol type="1">
@@ -71,14 +83,17 @@
         <li>Cricket</li>
         <li>Travelling</li>
         <li>Watching Documentries</li>
-    </ul><hr>
+    </ul>
+    <hr class="styled-hr">
 
     <h2>Image Showcase</h2>
     <p>Here are some samples images:</p>
-    <img src="https://t3.ftcdn.net/jpg/05/71/06/76/360_F_571067620_JS5T5TkDtu3gf8Wqm78KoJRF1vobPvo6.jpg" alt=""
+    <img src="images 1.jpg" alt=""
     height="300"
-    width="300"><br>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsY4aYbqXwrn8PBfAH4CCHLpHaIjC4qIYbJdFEHoO-MGmVhlMeFZ7Lj17DMcz79JHFLpk&usqp=CAU" alt=""
+    width="300">
+    <br><br>
+    <hr  class="styled-hr">
+    <img src="images.jpg" alt=""
     height="300"
     width="300">
 

@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+h1, h2, h3{
+    color: red
+}
+style{
+    display: contents;
+}
+p{
+    color: white;
+}
+table, li, ol, ul{
+    color: white;
+}
+a{
+    color: blue;
+}
